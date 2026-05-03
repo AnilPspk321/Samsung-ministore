@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Ka Baap | Premium Samsung Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: white; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .product-card:hover { transform: translateY(-10px); transition: all 0.3s ease; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5); }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <nav class="sticky top-0 z-50 glass px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-extrabold tracking-tighter uppercase italic gradient-text">iPhone Ka Baap</h1>
+        <div class="hidden md:flex space-x-8 font-medium">
+            <a href="#" class="hover:text-blue-400 transition">S26 Series</a>
+            <a href="#" class="hover:text-blue-400 transition">Foldables</a>
+            <a href="#" class="hover:text-blue-400 transition">A-Series</a>
+        </div>
+        <div class="flex items-center space-x-5">
+            <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
+            <div class="relative cursor-pointer">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="absolute -top-2 -right-2 bg-blue-600 text-[10px] px-1.5 rounded-full">0</span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative h-[60vh] flex items-center justify-center text-center px-4 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-slate-950 -z-10"></div>
+        <div class="max-w-3xl">
+            <h2 class="text-5xl md:text-7xl font-extrabold mb-4">The Future is <span class="gradient-text">Foldable.</span></h2>
+            <p class="text-slate-400 text-lg mb-8">Why settle for a fruit when you can have the entire galaxy? Explore the 2026 Collection.</p>
+            <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition-all">Shop Latest Release</button>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <div class="flex justify-between items-end mb-10">
+            <h3 class="text-3xl font-bold">Latest Arrivals <span class="text-blue-500">2026</span></h3>
+            <span class="text-slate-400 cursor-pointer hover:underline">View All</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            <div class="product-card glass p-5 rounded-3xl">
+                <div class="bg-slate-800 h-48 rounded-2xl mb-4 flex items-center justify-center text-slate-500">
+                    <i class="fa-solid fa-mobile-screen-button text-6xl"></i>
+                </div>
+                <span class="text-xs font-bold text-blue-400 uppercase">Flagship King</span>
+                <h4 class="text-xl font-bold mt-1">Galaxy S26 Ultra</h4>
+                <p class="text-slate-400 text-sm mt-2">200MP Quad Camera | Snapdragon 8 Elite Gen 5</p>
+                <div class="flex justify-between items-center mt-6">
+                    <span class="text-2xl font-extrabold">₹1,30,999</span>
+                    <button class="bg-white text-black p-2 rounded-full hover:bg-blue-500 hover:text-white transition">
+                        <i class="fa-solid fa-plus px-2"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-card glass p-5 rounded-3xl">
+                <div class="bg-slate-800 h-48 rounded-2xl mb-4 flex items-center justify-center text-slate-500">
+                    <i class="fa-solid fa-book-open text-6xl"></i>
+                </div>
+                <span class="text-xs font-bold text-purple-400 uppercase">Multitasking Beast</span>
+                <h4 class="text-xl font-bold mt-1">Galaxy Z Fold 7</h4>
+                <p class="text-slate-400 text-sm mt-2">8" Dynamic AMOLED | Galaxy AI 3.0</p>
+                <div class="flex justify-between items-center mt-6">
+                    <span class="text-2xl font-extrabold">₹1,74,999</span>
+                    <button class="bg-white text-black p-2 rounded-full hover:bg-blue-500 hover:text-white transition">
+                        <i class="fa-solid fa-plus px-2"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-card glass p-5 rounded-3xl border-blue-500/30">
+                <div class="bg-slate-800 h-48 rounded-2xl mb-4 flex items-center justify-center text-slate-500">
+                    <i class="fa-solid fa-mobile text-6xl"></i>
+                </div>
+                <span class="text-xs font-bold text-green-400 uppercase">Compact Power</span>
+                <h4 class="text-xl font-bold mt-1">Galaxy S26 5G</h4>
+                <p class="text-slate-400 text-sm mt-2">Exynos 2600 (2nm) | 120Hz Refresh</p>
+                <div class="flex justify-between items-center mt-6">
+                    <span class="text-2xl font-extrabold">₹79,999</span>
+                    <button class="bg-white text-black p-2 rounded-full hover:bg-blue-500 hover:text-white transition">
+                        <i class="fa-solid fa-plus px-2"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-card glass p-5 rounded-3xl">
+                <div class="bg-slate-800 h-48 rounded-2xl mb-4 flex items-center justify-center text-slate-500">
+                    <i class="fa-solid fa-box-archive text-6xl rotate-180"></i>
+                </div>
+                <span class="text-xs font-bold text-pink-400 uppercase">Style Icon</span>
+                <h4 class="text-xl font-bold mt-1">Galaxy Z Flip 7</h4>
+                <p class="text-slate-400 text-sm mt-2">4.1" Cover Display | 50MP Dual Cam</p>
+                <div class="flex justify-between items-center mt-6">
+                    <span class="text-2xl font-extrabold">₹1,09,999</span>
+                    <button class="bg-white text-black p-2 rounded-full hover:bg-blue-500 hover:text-white transition">
+                        <i class="fa-solid fa-plus px-2"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="border-t border-slate-800 mt-20 py-10 px-6 text-center">
+        <p class="text-slate-500 text-sm">© 2026 <strong>iPhone Ka Baap</strong>. All rights reserved.</p>
+        <div class="flex justify-center space-x-6 mt-4 text-slate-400">
+            <i class="fa-brands fa-instagram hover:text-white cursor-pointer"></i>
+            <i class="fa-brands fa-x-twitter hover:text-white cursor-pointer"></i>
+            <i class="fa-brands fa-youtube hover:text-white cursor-pointer"></i>
+        </div>
+    </footer>
+
+</body>
+</html>
